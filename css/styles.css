@@ -62,11 +62,12 @@ img {
     margin: 0;
 }
 
-/* button {
-  font-family: inherit;
-  color: currentColor;
-  cursor: pointer;
-} */
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+
 /* reset end */
 .container {
     width: 1158px;
@@ -327,23 +328,20 @@ a {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-
+    fill: var(--navy-blue)
 }
 
 .modal-btn:active {
     background-color: var(--ocean);
+    fill: var(--white);
 
 }
 
 .modal-icon {
     display: inline-block;
-    fill: var(--navy-blue);
 }
 
-.modal-icon:active {
-    fill: var(--white);
-}
+.modal-icon:active {}
 
 .benefits-main {
     padding: 120px 0;
