@@ -331,7 +331,19 @@ a {
 
 }
 
-.modal-icon {}
+.modal-btn:active {
+    background-color: var(--ocean);
+
+}
+
+.modal-icon {
+    display: inline-block;
+    fill: var(--navy-blue);
+}
+
+.modal-icon:active {
+    fill: var(--white);
+}
 
 .benefits-main {
     padding: 120px 0;
