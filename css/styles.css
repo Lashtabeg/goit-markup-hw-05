@@ -157,7 +157,7 @@ a {
 
 .current::after {
     position: absolute;
-    bottom: 20px;
+    margin-top: 21px;
     left: 0;
     display: block;
     content: " ";
@@ -588,7 +588,7 @@ a {
     border-radius: 4px;
     transition: color var(--anim),
         background-color var(--anim),
-        box-shadow var(--anim);
+        box-shadow var(--anim), border var(--anim);
 }
 
 .portf-btn:hover,
@@ -616,7 +616,8 @@ a {
     box-sizing: content-box;
 }
 
-.portf-apps-item:hover .overlay-apps {
+.portf-apps-item:hover .overlay-apps,
+.portf-apps-item:focus .overlay-apps {
     transform: translateY(0);
 }
 
